@@ -1,7 +1,9 @@
 #REST API ENDPOINT PROJECT
 
 RestAPIEndpointProject is a Java software that parses a HTML specific page from a PlayStation website 
-(https://www.metacritic.com/game/playstation-4) to a Document Java Object using the framework Jsoup. 
+(https://www.metacritic.com/game/playstation-4) to a Document Java Object using the framework Jsoup.
+Later on, it renders a Rest API Endpoint using Spark where the user can search for a game from what has been processed from the
+specific URL. It containts game names and the user can search for a specific game or get all games from the Games web service.
 It runs under the webserver Jetty that is granted by the Java framework called Spark. 
 
 Spark Framework is a simple and expressive Java/Kotlin web framework DSL built for rapid development. 
