@@ -1,0 +1,56 @@
+#REST API ENDPOINT PROJECT
+
+RestAPIEndpointProject is a Java software that parses a HTML specific page from a PlayStation website 
+(https://www.metacritic.com/game/playstation-4) to a Document Java Object using the framework Jsoup. 
+It runs under the webserver Jetty that is granted by the Java framework called Spark. 
+
+Spark Framework is a simple and expressive Java/Kotlin web framework DSL built for rapid development. 
+Sparks intention is to provide an alternative for Kotlin/Java developers that want to develop their 
+web applications as expressive as possible and with minimal boilerplate. 
+With a clear philosophy Spark is designed not only to make you more productive, 
+but also to make your code better under the influence of Spark’s sleek, 
+declarative and expressive syntax.
+
+
+## Installation
+
+To run this project, you will need to have the following softwares/technologies as a pre-requisite:
+
+- Eclipse IDE, Java SDK 1.8, Jsoup 1.11.3.jar, Gson 2.8.0.jar, mockito -all - 1.10.19.jar and JUnit (junit4.jar).
+
+- Jetty webserver is granted by Spark. 
+
+- All of the dependencies on this project are managed by Maven.
+
+- Probably you will need to right click on Project's icon, Maven --> Update Project (this is because
+Maven pops-with an error during the first project load).
+
+- Following these instructions, all of the errors are gone!
+
+- Following these instructions, you should have no errors!
+
+
+## Usage
+
+```
+Go to the source folder -> com/exercise2/router/ and run the 
+class MainClassRouter.java 
+as a Java Application on mouse right click and run as Java Application
+As soon as the webserver starts, go to your browser and type the following address below:
+
+http://localhost:4567/games to get the whole content of available games or
+
+http://localhost:4567/games/(game name) to get the content of one single and specific game
+
+For a good Json View on Google Chrome, please install JsonView extension app for Google Chrome.
+You can download it here - https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc 
+
+```
+
+## Contributing
+For any questions, please email Lucas Abrão (lucaspiano@gmail.com).
+
+Please make sure to update tests as appropriate.
+
+## License
+Lucas Abrão (lucaspiano@gmail.com)
